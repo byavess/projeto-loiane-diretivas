@@ -12,7 +12,7 @@ export class DiretivaNgforComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    for (let i=0; i<this.cursos.length; i++){
+    for (let i=1; i<this.cursos.length; i++){
       let curso = this.cursos [i];
     }
   }
