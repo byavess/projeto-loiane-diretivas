@@ -8,6 +8,7 @@ import { TesteComponent } from './teste/teste/teste.component';
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.component';
 import { DiertivaNgclassComponent } from './diertiva-ngclass/diertiva-ngclass.component';
+import { DiertivasNgstyleComponent } from './diertivas-ngstyle/diertivas-ngstyle.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DiertivaNgclassComponent } from './diertiva-ngclass/diertiva-ngclass.co
         TesteComponent,
         DiretivaNgswitchComponent,
         DiretivaNgforComponent,
-        DiertivaNgclassComponent
+        DiertivaNgclassComponent,
+        DiertivasNgstyleComponent
   ],
   imports: [
     BrowserModule

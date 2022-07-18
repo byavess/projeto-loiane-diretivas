@@ -10,8 +10,9 @@ export class DiertivaNgclassComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
+
   onClick(){
     this.meuFavorito = !this.meuFavorito;
   }
