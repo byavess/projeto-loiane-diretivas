@@ -20,6 +20,7 @@ import { DiertivasNgstyleComponent } from './diertivas-ngstyle/diertivas-ngstyle
         DiretivaNgforComponent,
         DiertivaNgclassComponent,
         DiertivasNgstyleComponent
+        
   ],
   imports: [
     BrowserModule

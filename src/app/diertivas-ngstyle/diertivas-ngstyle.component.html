@@ -1,1 +1,11 @@
-<p>diertivas-ngstyle works!</p>
+
+<h5>Style com property bindig (style biding)</h5>
+
+<button [style.backgroundColor]="ativo ? 'blue' : 'gray'"
+[style.color]="ativo ? 'white' : 'black'"
+[style.fontWeight]="ativo ? 'bold' : 'normal'"
+[style.fontSize]="tamanhoFonte + 'px'"
+(click)="mudarAtivo()"
+>Mudar atrivuto 'ativo'</button>
+<br>
+<input type="text" >
